@@ -4,11 +4,59 @@
     <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <body>
+      <body background="background-photo.jpg" bgproperties="fixed"></body>
+  
+      <header>
+  
+        <h1 class="title"><strong>Validador de Cartão de Crédito</strong></h1>
+  
+        <div class="intro">
+  
+          <div class="cardImg">
+            <image src="Online-Shopping.png" width="500" height="333,3"></image>
+           </div>
+  
+          <div class="text">Olá!
+           O Validador de Cartão de Crédito serve para verificar se o número do seu cartão é válido para realizar compras pela internet.
+          </div>
+  
+        </div> 
+        
+      </header>  
+  
+      <main>
+        <form>
+          <div class="boxForm">
+  
+            <h3 class="titleDigite">Digite o número do seu cartão:</h3>
+          
+            <input type="number" class="inputNumber" placeholder="xxxx xxxx xxxx xxxx" id="number" required>
+  
+            <button type="button" id="verify" class="verifyButton">Verificar</button>
+            <button type="button" id="reset" class="resetButton">Tente outro cartão</button>
+  
+          </div>
+          
+        </form>
+  
+  
+        <div class="showHide">
+  
+          <div id="result" class="resultValidation"></div>
+  
+        </div> 
+  
+      </main>
+  
+      <footer>
+        Desenvolvido por Beatriz de Sousa Carvalho<br>2022
+      </footer>
+      
     <script src="index.js" type="module"></script>
   </body>
 </html>
