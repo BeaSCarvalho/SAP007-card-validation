@@ -21,7 +21,7 @@ function getCardNumber(event) {
       document.getElementById("result").innerHTML = "O cartão " + maskifyTheNumbers + " não é válido para realizar compras online. Entre em contato com a instituição financeira emissora do cartão para mais informações.";
       }
     }  
-    document.getElementById('number').value='';
+    document.getElementById("number").value='';
   
     return creditCardNumber;
   }
@@ -44,13 +44,13 @@ function getCardNumber(event) {
     let display = document.getElementById("reset").style.visibility;
   
     if (display == "none") {
-     document.getElementById("reset").style.visibility = 'hidden';
+     document.getElementById("reset").style.visibility = "hidden";
     }
     else {
-     document.getElementById("reset").style.visibility = 'visible';
+     document.getElementById("reset").style.visibility = "visible";
     }
   
-    document.getElementById("reset").style.visibility = 'visible';
+    document.getElementById("reset").style.visibility = "visible";
   
     return showButtonReset;
   }
@@ -63,7 +63,7 @@ function getCardNumber(event) {
   
     creditCardNumber.value = "";
     document.getElementById("result").innerHTML = "";
-    document.getElementById("reset").style.visibility = 'hidden';
+    document.getElementById("reset").style.visibility = "hidden";
   
     return tryAnotherNumber;
   } 

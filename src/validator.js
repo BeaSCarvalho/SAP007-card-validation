@@ -41,17 +41,14 @@ const validator = {
       firstNumbers[i] = "#";                                                      //serão substituídos por #
      }
      let ocult = firstNumbers.concat(fourLastNumbers).toString();                 //juntar os dois arrays e depois transforma em string
-     let transformString = ocult.replace(/,/g,"");   
+     let transformString = ocult.replace(/,/g,"");                                //mesmo depois de transformado em string as virgulas continuam
      
-  
-  
-  
      
-     //mesmo depois de transformado em string as virgulas continuam
-     //let separateNumbers = transformString.replace(/(\d{4}) (\d{4}) (\d{4}) (\d{4})/,"$1 /$2/ $3 $4 ");
+                                                                                    
+    
                                                                                   
      return transformString;                                                      //replace tira todas as vírgulas(global - g)(/) 
     }
   };
-  
+
 export default validator;
