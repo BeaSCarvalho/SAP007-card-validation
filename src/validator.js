@@ -42,10 +42,6 @@ const validator = {
      }
      let ocult = firstNumbers.concat(fourLastNumbers).toString();                 //juntar os dois arrays e depois transforma em string
      let transformString = ocult.replace(/,/g,"");                                //mesmo depois de transformado em string as virgulas continuam
-     
-     
-                                                                                    
-    
                                                                                   
      return transformString;                                                      //replace tira todas as vírgulas(global - g)(/) 
     }
