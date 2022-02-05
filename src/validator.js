@@ -1,8 +1,8 @@
 const validator = {
   
     isValid: function(creditCardNumber) {
-  
-     let arrayCreditCardNumber = creditCardNumber.split('', 16);                     //transformando o número digitado em um array
+     let arrayCreditCardNumber = creditCardNumber.split('', 16);                       //transformando o número digitado em um array
+                       
       for(let numbers = 0; numbers < arrayCreditCardNumber.length; numbers++) {
        arrayCreditCardNumber[numbers] = parseInt(arrayCreditCardNumber[numbers]);    //array só de números(parseInt)
       }
@@ -31,7 +31,6 @@ const validator = {
     },
   
     maskify: function(creditCardNumber) {                                         //mascarar os numeros menos os 4 ultimos
-  
      let arrayCreditCardNumber = creditCardNumber.split('', 16);                  //transforma em array
   
      let fourLastNumbers = arrayCreditCardNumber.slice(-4);                       //variável com os quatro ultimos digitos
