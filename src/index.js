@@ -1,6 +1,6 @@
 import validator from './validator.js';
 
-function getCardNumber(event) {
+  function getCardNumber(event) {
     event.preventDefault();
 
     let creditCardNumber = document.getElementById("number").value; 
@@ -11,14 +11,15 @@ function getCardNumber(event) {
       return;
     } 
 
-     let maskifyTheNumbers = validator.maskify(creditCardNumber);
-     let isValid = validator.isValid(creditCardNumber);
-     let resultMessage = "O cartão " + maskifyTheNumbers;
+    let maskifyTheNumbers = validator.maskify(creditCardNumber);
+    let isValid = validator.isValid(creditCardNumber);
+    let resultMessage = "O cartão " + maskifyTheNumbers;
+
       if(isValid){
-        resultMessage = `${resultMessage} " é válido para realizar compras online`; 
+        resultMessage = `${resultMessage} é válido para realizar compras online.`; 
       } else{
-        resultMessage = `${resultMessage} " não é válido para realizar compras online.
-         Entre em contato com a instituição financeira emissora do cartão para mais informações.`
+        resultMessage = `${resultMessage} não é válido para realizar compras online.
+        Entre em contato com a instituição financeira emissora do cartão para mais informações.`
       }
       document.getElementById("result").innerHTML = resultMessage;
      
