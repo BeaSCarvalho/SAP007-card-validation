@@ -6,4 +6,4 @@ O layout é de fácil entendimento: no início há uma breve introdução para o
 Ao lado do input dos números tem um botão que aciona a verificação e logo abaixo aparece a resposta, se o cartão é válido ou não, encobrindo os primeiros números e ficando visível apenas os quatro últimos. Assim que o botão é acionado, ao lado dele surge um outro botão ("Tente outro cartão") que apaga os dados e possibilita o usuário a digitar outro número.
 
 Protótipo de como seria o layout
-![Protótipo-card-validation](https://user-images.githubusercontent.com/97310851/150186867-b6db8d52-b1da-4d7b-bb1f-302f3cb0ccab.png)
+![Protótipo-card-validation](https://github.com/BeaSCarvalho/SAP007-card-validation/blob/96b38109754f2017f909308d04c665cb17f50d8c/Prot%C3%B3tipo-card-validation.png)
