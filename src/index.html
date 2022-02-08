@@ -7,52 +7,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   </head>
-  <body>
 
+  <body>
     <body background="background-photo.jpg"  bgproperties="fixed"></body>
   
     <header>
-  
       <h1 class="title"><strong>Validador de Cartão de Crédito</strong></h1>
   
-      <div class="intro">
+      <section class="intro">
+        <image class="card-img" src="Online-Shopping.png" width="500" height="333,3"></image>
   
-        <div class="cardImg">
-          <image src="Online-Shopping.png" width="500" height="333,3"></image>
-        </div>
-  
-        <div class="text">Olá!
+        <p class="text">Olá!
           O Validador de Cartão de Crédito serve para verificar se o número do seu cartão é válido para realizar compras pela internet.
-        </div>
-  
-      </div> 
-        
+        </p>
+      </section>  
     </header>  
   
     <main>
-      <form>
-        <div class="boxForm">
-  
-          <h3 class="titleDigite">Digite o número do seu cartão:</h3>
+      <form class="box-form">
+        <h3 class="title-type">Digite o número do seu cartão:</h3>
           
-          <input type="number" class="inputNumber" placeholder="xxxx xxxx xxxx xxxx" id="number" required>
+        <input type="number" class="input-number" placeholder="xxxx xxxx xxxx xxxx" id="number" required>
   
-          <button type="button" id="verify" class="verifyButton">Verificar</button>
-          <button type="button" id="reset" class="resetButton">Tente outro cartão</button>
+        <button type="button" id="verify" class="verify-button">Verificar</button>
+        <button type="button" id="reset" class="reset-button">Tente outro cartão</button>
   
-        </div>
-          
-      </form>
-  
-      <div class="showHide">
-  
-        <div id="result" class="resultValidation"></div>
-  
-      </div> 
-  
+      </form>   
+
+      <section class="show-hide">
+        <p id="result" class="result-validation"></p>
+      </section> 
     </main>
   
-    <footer>
+    <footer class ="footer">
       Desenvolvido por Beatriz de Sousa Carvalho<br>2022
     </footer>
       
