@@ -9,10 +9,15 @@
 - [6. Capturas de Tela](#6-capturas-de-tela)
 - [7. Futuras Implementações](#7-futuras-implementações)
 - [8. Organização do Projeto](#8-organização-do-projeto)
+<<<<<<< HEAD
 - [9. Pré-requisitos](#9-pré-requisitos)
 - [10. Passos para Rodar](#10-passos-para-rodar)
 - [11. Ferramentas e Tecnologias Utilizadas](#11-ferramentas-e-tecnologias-utilizadas)
 - [12. Autora](#12-autora)
+=======
+- [9. Ferramentas e Tecnologias Utilizadas](#9-ferramentas-e-tecnologias-utilizadas)
+- [10. Autora](#10-autora)
+>>>>>>> a322a4c9e37807a202962c7d940749d827b6cf1b
 
 ---
 
@@ -53,10 +58,6 @@ O projeto pode ser acessado pelo [link](https://beascarvalho.github.io/SAP007-ca
 
 As capturas foram realizadas na versão mais atual do projeto.
 
-<image src="print2-card-validation.png">
-<image src="print-card-validator.png">
-<image src="print3-card-validation.png">
-
 ## 7. Futuras Implementações
 
 Identificar e exibir em tela a instituição financeira emissora do cartão de crédito.
@@ -65,6 +66,7 @@ Identificar e exibir em tela a instituição financeira emissora do cartão de c
 
 Para organização e planejamento do projeto foi utilizada a metodologia do Quadro Kanban por meio do [Trello](https://trello.com/b/MoKEHshS).
 
+<<<<<<< HEAD
 ## 9. Pré-requisitos
 
 Antes de começar, é necessário ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/)
@@ -85,14 +87,27 @@ Iniciar a aplicação<br>
 `$ npm start`
 
 ## 11. Ferramentas e Tecnologias Utilizadas 
+=======
+## 9. Ferramentas e Tecnologias Utilizadas
+>>>>>>> a322a4c9e37807a202962c7d940749d827b6cf1b
 
 - HTML5
 - CSS3
 - Vanilla JavaScript
+<<<<<<< HEAD
 - Terminal
 - GitHub Pages
 
 ## 12. Autora
+=======
+- Node.js
+- Terminal
+- Git
+- GitHub Pages
+- VS Code
+
+## 10. Autora
+>>>>>>> a322a4c9e37807a202962c7d940749d827b6cf1b
 
 
 
