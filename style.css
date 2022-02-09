@@ -19,141 +19,141 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-body{
-     width:100%;
-     background-image: url("background-photo.jpg");
+body {
+    width:100%;
+    background-image: url("background-photo.jpg");
 }
 
 .title {
-     border-radius: 20px;
-     margin-right: 2%;
-     margin-left: 2%;  
-     margin-top: 2%;
-     background: rgb(216,191,216);
-     opacity : 0.9;
-     padding: 1.5%;
-     position: relative;
-     font-family: 'Lobster', cursive;
-     text-align: center;
-     color: rgb(16, 6, 109);
-     font-size: 40px;
+    border-radius: 20px;
+    margin-right: 2%;
+    margin-left: 2%;  
+    margin-top: 2%;
+    background: rgb(216,191,216);
+    opacity : 0.9;
+    padding: 1.5%;
+    position: relative;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: rgb(16, 6, 109);
+    font-size: 40px;
 }
 
 .intro {
-     background: rgb(216,191,216);
-     border-radius: 20px 20px 0px 0px;
-     margin-top: 2%;
-     margin-left: 2%; 
-     margin-right: 2%;
+    background: rgb(216,191,216);
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 2%;
+    margin-left: 2%; 
+    margin-right: 2%;
 }
 
 .text {
-     font-family: 'Rubik', sans-serif;
-     font-size: 22px;
-     color: #333333;
-     display: inline-block;
-     width: 450px;
-     text-align: center;
-     padding-left: 5%;
-     padding-top: 7%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    color: #333333;
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 7%;
 }
 
-.cardImg {
-     margin-top: 1%;
-     float: right;
-     margin-right: 4%;
-     margin-bottom: 0%;    
+.card-img {
+    margin-top: 1%;
+    float: right;
+    margin-right: 4%;
+    margin-bottom: 0%;    
 }
 
-.cardImg:hover {
-	transform: scale(1.2, 1.2);
-	z-index: 9;
+.card-img:hover {
+    transform: scale(1.2, 1.2);
+    z-index: 9;
 }
 
-.boxForm{
-     background: rgb(216,191,216);
-     margin-left: 2%; 
-     margin-right: 2%;
+.box-form{
+    background: rgb(216,191,216);
+    margin-left: 2%; 
+    margin-right: 2%;
 }
 
-.titleDigite {
-     padding-top: 2.75%;
-     padding-bottom: 2.75%;
-     font-family: 'Lobster', cursive;
-     margin-left: 8%;
-     font-size: 26px;
+.title-type {
+    padding-top: 2.75%;
+    padding-bottom: 2.75%;
+    font-family: 'Lobster', cursive;
+    margin-left: 8%;
+    font-size: 26px;
 }
 
-.inputNumber {
-     border-radius: 10px;
-     border: 1px solid #000;
-     padding: 10px;
-     width: 20%;
-     margin-left: 6%;
-     font-size: 26px;
+.input-number {
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 10px;
+    width: 20%;
+    margin-left: 6%;
+    font-size: 26px;
 }
 
-.verifyButton{
-     border-radius: 10px;
-     background-color: #3658f1;
-     border: none;
-     color: white;
-     text-align: center;
-     padding: 1% 2%;
-     font-size: 20px;
-     margin-left: 0.5%;
-     cursor: pointer;
-     font-family: 'Rubik', sans-serif;
+.verify-button{
+    border-radius: 10px;
+    background-color: #3658f1;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 1% 2%;
+    font-size: 20px;
+    margin-left: 0.5%;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
 }
 
-.verifyButton:hover{
-     background-color: rgb(16, 6, 109);
+.verify-button:hover{
+    background-color: rgb(16, 6, 109);
 }     
 
-.resetButton {
-     visibility: hidden;
-     border-radius: 10px;
-     background-color: #3658f1;
-     border: none;
-     color: white;
-     text-align: center;
-     padding: 1% 2%;
-     font-size: 20px;
-     margin-left: 0.35%;
-     cursor: pointer;
-     font-family: 'Rubik', sans-serif;
+.reset-button {
+    visibility: hidden;
+    border-radius: 10px;
+    background-color: #3658f1;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 1% 2%;
+    font-size: 20px;
+    margin-left: 0.35%;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
 }
 
-.resetButton:hover{
-     background-color: rgb(16, 6, 109);
+.reset-button:hover{
+    background-color: rgb(16, 6, 109);
 }
 
-.showHide{
-     background: rgb(216,191,216);
-     border-radius: 0px 0px 20px 20px;
-     margin-left: 2%; 
-     margin-right: 2%;
+.show-hide{
+    background: rgb(216,191,216);
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 2%; 
+    margin-right: 2%;
 }
 
-.resultValidation {
-     padding-top: 2.5%;
-     padding-left: 6%;
-     padding-bottom: 2%;
-     font-family: 'Rubik', sans-serif;
-     font-size: 22px;
-     padding-right: 10%;
+.result-validation {
+    padding-top: 2.5%;
+    padding-left: 6%;
+    padding-bottom: 2%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    padding-right: 10%;
 }
 
-footer {
-     border-radius: 10px;
-     background:rgb(223, 215, 223);
-     padding-left: 1%;
-     padding-right: 1%;
-     opacity: 0.9;
-     position: absolute;
-     bottom: 0;
-     text-align: center; 
-     font-family: 'Rubik', sans-serif;
-     font-size: 15px;
-     margin-left: 39%;
+.footer {
+    border-radius: 10px;
+    background:rgb(223, 215, 223);
+    padding-left: 1%;
+    padding-right: 1%;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0;
+    text-align: center; 
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    margin-left: 39%;
 }
