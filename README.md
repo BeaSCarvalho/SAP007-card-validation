@@ -9,15 +9,10 @@
 - [6. Capturas de Tela](#6-capturas-de-tela)
 - [7. Futuras Implementações](#7-futuras-implementações)
 - [8. Organização do Projeto](#8-organização-do-projeto)
-<<<<<<< HEAD
 - [9. Pré-requisitos](#9-pré-requisitos)
 - [10. Passos para Rodar](#10-passos-para-rodar)
 - [11. Ferramentas e Tecnologias Utilizadas](#11-ferramentas-e-tecnologias-utilizadas)
 - [12. Autora](#12-autora)
-=======
-- [9. Ferramentas e Tecnologias Utilizadas](#9-ferramentas-e-tecnologias-utilizadas)
-- [10. Autora](#10-autora)
->>>>>>> a322a4c9e37807a202962c7d940749d827b6cf1b
 
 ---
 
@@ -58,6 +53,12 @@ O projeto pode ser acessado pelo [link](https://beascarvalho.github.io/SAP007-ca
 
 As capturas foram realizadas na versão mais atual do projeto.
 
+![print2-card-validation.png](https://github.com/BeaSCarvalho/SAP007-card-validation/blob/a0e19d828b718d3827b7159616c3b83e408db15d/print2-card-validation.PNG)
+<br><br>
+![print3-card-validation.png](https://github.com/BeaSCarvalho/SAP007-card-validation/blob/a0e19d828b718d3827b7159616c3b83e408db15d/print3-card-validation.PNG)
+<br><br>
+![print-card-validator.png](https://github.com/BeaSCarvalho/SAP007-card-validation/blob/a0e19d828b718d3827b7159616c3b83e408db15d/print-card-validator.PNG)
+
 ## 7. Futuras Implementações
 
 Identificar e exibir em tela a instituição financeira emissora do cartão de crédito.
@@ -66,7 +67,6 @@ Identificar e exibir em tela a instituição financeira emissora do cartão de c
 
 Para organização e planejamento do projeto foi utilizada a metodologia do Quadro Kanban por meio do [Trello](https://trello.com/b/MoKEHshS).
 
-<<<<<<< HEAD
 ## 9. Pré-requisitos
 
 Antes de começar, é necessário ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/)
@@ -86,28 +86,24 @@ Realize os testes unitários<br>
 Iniciar a aplicação<br>
 `$ npm start`
 
-## 11. Ferramentas e Tecnologias Utilizadas 
-=======
-## 9. Ferramentas e Tecnologias Utilizadas
->>>>>>> a322a4c9e37807a202962c7d940749d827b6cf1b
+## 11. Ferramentas e Tecnologias Utilizadas
 
 - HTML5
 - CSS3
 - Vanilla JavaScript
-<<<<<<< HEAD
 - Terminal
 - GitHub Pages
 
 ## 12. Autora
-=======
-- Node.js
-- Terminal
-- Git
-- GitHub Pages
-- VS Code
 
-## 10. Autora
->>>>>>> a322a4c9e37807a202962c7d940749d827b6cf1b
+<img src="https://avatars.githubusercontent.com/u/99045620?s=96&v=4" alt="Beatriz-de-Sousa-Carvalho">
+ 
+### [Beatriz de Sousa Carvalho](https://github.com/BeaSCarvalho)
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/beatriz-de-sousa-carvalho-94a595137/)](https://www.linkedin.com/in/beatriz-de-sousa-carvalho-94a595137/)
+[![Gmail Badge](https://img.shields.io/badge/-gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:beaproscarva@gmail.com)](mailto:beaproscarva@gmail.com)
+
+
+
 
 
 
