@@ -101,9 +101,12 @@ Iniciar a aplicação<br>
 ### [Beatriz de Sousa Carvalho](https://github.com/BeaSCarvalho)
 [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/beatriz-de-sousa-carvalho-94a595137/)](https://www.linkedin.com/in/beatriz-de-sousa-carvalho-94a595137/)
 [![Gmail Badge](https://img.shields.io/badge/-gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:beaproscarva@gmail.com)](mailto:beaproscarva@gmail.com)
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 8cdc36a293bbde68be0921186cd19158687ed25f
 
 
 
