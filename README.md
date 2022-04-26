@@ -96,12 +96,19 @@ Iniciar a aplicação<br>
 
 ## 12. Autora
 
-<img src="https://avatars.githubusercontent.com/u/99045620?s=96&v=4" alt="Beatriz-de-Sousa-Carvalho">
- 
-### [Beatriz de Sousa Carvalho](https://github.com/BeaSCarvalho)
-[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/beatriz-de-sousa-carvalho-94a595137/)](https://www.linkedin.com/in/beatriz-de-sousa-carvalho-94a595137/)
-[![Gmail Badge](https://img.shields.io/badge/-gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:beaproscarva@gmail.com)](mailto:beaproscarva@gmail.com)
-
+<table>
+  <td>
+    <div align= "center">
+      <img alt="Beatriz de Sousa Carvalho" height="150" src="https://avatars.githubusercontent.com/u/99045620?v=4"> 
+    </div>
+    <h3 align="center"><a href="https://github.com/BeaSCarvalho">Beatriz de Sousa Carvalho</a></h3>
+    <h4 align="center">Projeto do Bootcamp da <em><a href="https://hub.laboratoria.la/br">Laboratoria</a></em></h4>
+    <div align="center">
+      <a href = "mailto:beaproscarva@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+       <a href="https://www.linkedin.com/in/beatriz-de-sousa-carvalho/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+    </div>
+  </td>
+</table>
 
 
 
