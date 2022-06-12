@@ -6,7 +6,7 @@
 - [3. Protótipo](#3-protótipo) 
 - [4. Acesso](#4-acesso)
 - [5. Funcionalidades](#5-funcionalidades)
-- [6. Capturas de Tela](#6-capturas-de-tela)
+- [6. Produto Final](#6-produto-final)
 - [7. Futuras Implementações](#7-futuras-implementações)
 - [8. Organização do Projeto](#8-organização-do-projeto)
 - [9. Pré-requisitos](#9-pré-requisitos)
@@ -49,7 +49,7 @@ O projeto pode ser acessado pelo [link](https://beascarvalho.github.io/SAP007-ca
 - [x] Números do cartão mascarados com #
 - [x] Botão para limpar os dados e inserir outro numero
 
-## 6. Capturas de tela
+## 6. Produto Final
 
 As capturas foram realizadas na versão mais atual do projeto.
 
@@ -91,7 +91,8 @@ Iniciar a aplicação<br>
 - HTML5
 - CSS3
 - Vanilla JavaScript
-- Terminal
+- Visual Studio Code
+- Git
 - GitHub Pages
 
 ## 12. Autora
