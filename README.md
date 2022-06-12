@@ -10,13 +10,14 @@
 - [7. Futuras Implementações](#7-futuras-implementações)
 - [8. Organização do Projeto](#8-organização-do-projeto)
 - [9. Pré-requisitos](#9-pré-requisitos)
-- [10. Passos para Rodar](#10-passos-para-rodar)
+- [10. Passos para Rodar o Projeto](#10-passos-para-rodar-o-projeto)
 - [11. Ferramentas e Tecnologias Utilizadas](#11-ferramentas-e-tecnologias-utilizadas)
-- [12. Autora](#12-autora)
+- [12. Checklist](#12-checklist)
+- [13. Autora](#13-autora)
 
 ---
 
-## 1. Sobre
+## 1. SOBRE
 Esse algoritmo é simples. Obtemos o inverso do número a ser verificado (que
 A aplicação serve para o usuário verificar se o cartão de crédito dele serve
 para realizar compras pela internet pois há cartões de crédito que é possível 
@@ -25,22 +26,22 @@ internet. Dessa forma, ao fazer uma consulta antes, o usuário poderá fazer
 compras em sites sem passar por possíveis constrangimentos, por exemplo.
 Essa verificação é feita através do [Algoritmo de Luhn](https://stringfixer.com/pt/Luhn_algorithm).
 
-## 2. User Experience
+## 2. USER EXPERIENCE
 
 O design foi pensado para ser de fácil entendimento: No início há um texto de introdução ao validador e um local para inserir o número do cartão. Os cartões de crédito geralmente têm de 13 a 16 dígitos, portanto se o usuário colocar uma quantidade fora desse intervalo aparece um alerta para ele digitar a quantidade válida.<br><br>
 Ao lado do input dos números há um botão que aciona a verificação, apaga os dados no input e, logo abaixo, aparece o resultado da validação encobrindo os primeiros números e ficando visível apenas os quatro últimos. Assim que o botão é acionado, ao lado dele surge um outro botão ("Tente outro cartão") que apaga os dados e possibilita o usuário  digitar outro número.
 
-## 3. Protótipo
+## 3. PROTÓTIPO
 
 Protótipo da idealização do projeto criado através do [Mockflow](https://mockflow.com/).
 <br><br>
 ![Protótipo-card-validation](https://github.com/BeaSCarvalho/SAP007-card-validation/blob/96b38109754f2017f909308d04c665cb17f50d8c/Prot%C3%B3tipo-card-validation.png)
 
-## 4. Acesso
+## 4. ACESSO
 
 O projeto pode ser acessado pelo [link](https://beascarvalho.github.io/SAP007-card-validation/).
 
-## 5. Funcionalidades
+## 5. FUNCIONALIDADES
 
 - [x] Local para inserir o número do cartão
 - [x] Botão para acionar a verificação 
@@ -49,7 +50,7 @@ O projeto pode ser acessado pelo [link](https://beascarvalho.github.io/SAP007-ca
 - [x] Números do cartão mascarados com #
 - [x] Botão para limpar os dados e inserir outro numero
 
-## 6. Produto Final
+## 6. PRODUTO FINAL
 
 As capturas foram realizadas na versão mais atual do projeto.
 
@@ -59,20 +60,20 @@ As capturas foram realizadas na versão mais atual do projeto.
 <br><br>
 ![print-card-validator.png](https://github.com/BeaSCarvalho/SAP007-card-validation/blob/a0e19d828b718d3827b7159616c3b83e408db15d/print-card-validator.PNG)
 
-## 7. Futuras Implementações
+## 7. FUTURAS IMPLEMENTAÇÕES
 
 Identificar e exibir em tela a instituição financeira emissora do cartão de crédito.
 
-## 8. Organização do Projeto
+## 8. ORGANIZAÇÃO DO PROJETO
 
 Para organização e planejamento do projeto foi utilizada a metodologia do Quadro Kanban por meio do [Trello](https://trello.com/b/MoKEHshS).
 
-## 9. Pré-requisitos
+## 9. PRÉ-REQUISITOS
 
 Antes de começar, é necessário ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/)
 e um editor de código como [VS Code](https://code.visualstudio.com/).
 
-## 10. Passos para Rodar
+## 10. PASSOS PARA RODAR O PROJETO
 
 Clone este repositório<br>
 `$ git clone https://github.com/BeaSCarvalho/SAP007-card-validation.git`
@@ -86,7 +87,7 @@ Realize os testes unitários<br>
 Iniciar a aplicação<br>
 `$ npm start`
 
-## 11. Ferramentas e Tecnologias Utilizadas
+## 11. FERRAMENTAS E TECNOLOGIAS UTILIZADAS
 
 - HTML5
 - CSS3
@@ -95,7 +96,22 @@ Iniciar a aplicação<br>
 - Git
 - GitHub Pages
 
-## 12. Autora
+# 12. CHECKLIST
+
+- [ ] Usar VanillaJS.
+- [ ] Implementar `validator.isValid`.
+- [ ] Implementar `validator.maskify`.
+- [ ] Passar o linter com a configuração definida.
+- [ ] Passar as provas unitárias.
+- [ ] Testes unitários cobrindo 70% dos _statements_, _functions_ e _lines_, e
+      no mínimo 50% das _branches_.
+- [ ] Interface que permita escrever o número do cartão para ser validado
+- [ ] Interface que não permita campo vazio no número do cartão
+- [ ] Interface que mostre o resultado da validação
+- [ ] Interface que oculte todos os números exceto os 4 últimos.
+
+
+## 13. AUTORA
 
 <table>
   <td>
