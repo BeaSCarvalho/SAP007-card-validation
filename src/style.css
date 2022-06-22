@@ -1,16 +1,6 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, b, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div,
+h1, h2, h3, p, 
+a, img, form, footer, header, section {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -19,141 +9,216 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-body {
-    width:100%;
-    background-image: url("background-photo.jpg");
+.body {
+  background-image: url("background-photo.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 2rem 0 2rem;
+}  
+
+.header{
+  width: 100%;
+  margin: 0 0 2rem 0;
+}
+
+.title,
+.box-form,
+.show-hide, 
+.footer, 
+.main{
+  background: rgb(216,191,216);
+}
+
+.title,
+.title-type {
+  font-family: 'Lobster', cursive;
+}
+
+.text,
+.verify-button,
+.reset-button,
+.result-validation,
+.footer {
+  font-family: 'Rubik', sans-serif;
 }
 
 .title {
-    border-radius: 20px;
-    margin-right: 2%;
-    margin-left: 2%;  
-    margin-top: 2%;
-    background: rgb(216,191,216);
-    opacity : 0.9;
-    padding: 1.5%;
-    position: relative;
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    color: rgb(16, 6, 109);
-    font-size: 40px;
+  border-radius: 20px;
+  opacity : 0.9;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  color: rgb(16, 6, 109);
+  font-size: 2.5rem;
 }
 
-.intro {
-    background: rgb(216,191,216);
-    border-radius: 20px 20px 0px 0px;
-    margin-top: 2%;
-    margin-left: 2%; 
-    margin-right: 2%;
-}
-
-.text {
-    font-family: 'Rubik', sans-serif;
-    font-size: 22px;
-    color: #333333;
-    display: inline-block;
-    width: 450px;
-    text-align: center;
-    padding-left: 5%;
-    padding-top: 7%;
-}
-
-.card-img {
-    margin-top: 1%;
-    float: right;
-    margin-right: 4%;
-    margin-bottom: 0%;    
-}
-
-.card-img:hover {
-    transform: scale(1.2, 1.2);
-    z-index: 9;
+.main{
+  border-radius:20px 20px 0 0;
+  width: 100%;
 }
 
 .box-form{
-    background: rgb(216,191,216);
-    margin-left: 2%; 
-    margin-right: 2%;
+  border-radius: 20px;
 }
 
-.title-type {
-    padding-top: 2.75%;
-    padding-bottom: 2.75%;
-    font-family: 'Lobster', cursive;
-    margin-left: 8%;
-    font-size: 26px;
+.text {
+  color: #333333;
+}
+
+.card-img:hover {
+  transform: scale(1.2, 1.2);
+  z-index: 9;
 }
 
 .input-number {
-    border-radius: 10px;
-    border: 1px solid #000;
-    padding: 10px;
-    width: 20%;
-    margin-left: 6%;
-    font-size: 26px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 10px;
 }
 
-.verify-button{
-    border-radius: 10px;
-    background-color: #3658f1;
-    border: none;
-    color: white;
-    text-align: center;
-    padding: 1% 2%;
-    font-size: 20px;
-    margin-left: 0.5%;
-    cursor: pointer;
-    font-family: 'Rubik', sans-serif;
+.verify-button,
+.reset-button {
+  border-radius: 10px;
+  background-color: #3658f1;
+  border: none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
 }
 
-.verify-button:hover{
-    background-color: rgb(16, 6, 109);
+.verify-button:hover,
+.reset-button:hover{
+  background-color: rgb(16, 6, 109);
 }     
 
 .reset-button {
-    visibility: hidden;
-    border-radius: 10px;
-    background-color: #3658f1;
-    border: none;
-    color: white;
-    text-align: center;
-    padding: 1% 2%;
-    font-size: 20px;
-    margin-left: 0.35%;
-    cursor: pointer;
-    font-family: 'Rubik', sans-serif;
-}
-
-.reset-button:hover{
-    background-color: rgb(16, 6, 109);
-}
-
-.show-hide{
-    background: rgb(216,191,216);
-    border-radius: 0px 0px 20px 20px;
-    margin-left: 2%; 
-    margin-right: 2%;
+  visibility: hidden;
 }
 
 .result-validation {
-    padding-top: 2.5%;
-    padding-left: 6%;
-    padding-bottom: 2%;
-    font-family: 'Rubik', sans-serif;
-    font-size: 22px;
-    padding-right: 10%;
+  padding-top: 2rem;
+  padding-left: 4.7rem;
+  padding-bottom: 2rem;
+  font-size: 1.4rem;
+  padding-right: 4.7rem;
 }
 
 .footer {
-    border-radius: 10px;
-    background:rgb(223, 215, 223);
-    padding-left: 1%;
-    padding-right: 1%;
-    opacity: 0.9;
-    position: absolute;
-    bottom: 0;
-    text-align: center; 
-    font-family: 'Rubik', sans-serif;
-    font-size: 15px;
-    margin-left: 39%;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  opacity: 0.9;
+  bottom: 0;
+  text-align: center; 
+  display: flex;
+}
+
+.show-hide{
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 320px) {
+  .title{
+    font-size: 7rem;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .card-img{
+    float: none;
+    width: 900px; 
+    height: 333,3px;
+  }
+
+  .input-number {
+    font-size: 3rem;
+    width: 28rem;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  .title-type{
+    font-size: 3rem;
+    padding: 30px 0 30px 30px;
+  }  
+
+  .verify-button,
+  .reset-button {
+    padding: 0.8rem 1.2rem;
+    font-size: 3rem;
+    margin-left: 30px;
+  }
+
+  .footer{
+    font-size: 3rem;
+    margin: 20px 2rem 0 2rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .title{
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .title{
+    font-size: 2.5rem;
+  }
+
+  .card-img{
+    width: 450px; 
+    height: 300px;
+    margin-left: 10rem;
+    margin-top: 0.5rem;
+  }
+
+  .text {
+    font-size: 1.4rem;
+    width: 28rem;
+    padding: 3rem 0 1rem 4rem;
+    
+  }  
+
+  .footer{
+    font-size: 1rem;
+    width: max-content;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .input-number{
+    font-size: 1.6rem;
+    width: 15rem;
+    margin-left: 4.7rem;
+  }
+
+  .title-type{
+    font-size: 1.6rem;
+    padding: 30px 0 30px 0;
+    margin-left: 7rem;
+  }
+  
+  .verify-button,
+  .reset-button {
+    padding: 0.8rem 1.2rem;
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+   
 }
