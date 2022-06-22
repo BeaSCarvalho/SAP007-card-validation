@@ -7,8 +7,7 @@ const validator = {
                        
     for(let numbers = 0; numbers < arrayCreditCardNumber.length; numbers++) {
       arrayCreditCardNumber[numbers] = parseInt(arrayCreditCardNumber[numbers]);    
-    }
-      
+    } 
     const creditCardNumberReverse = arrayCreditCardNumber.reverse();                
       
     for (let i = 0; i < creditCardNumberReverse.length; i++) {                     
